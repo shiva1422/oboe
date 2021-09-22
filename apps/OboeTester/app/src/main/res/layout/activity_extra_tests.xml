@@ -41,5 +41,16 @@
         android:backgroundTint="@color/button_tint"
         android:onClick="onLaunchPlugLatencyTest"
         android:text="Plug Latency" />
+
+    <Button
+        android:id="@+id/buttonDynamicWorkload"
+        android:layout_gravity="fill"
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_tint"
+        android:onClick="onLaunchDynamicWorkloadTest"
+        android:text="Dynamic Load" />
+
     </GridLayout>
 </android.support.constraint.ConstraintLayout>

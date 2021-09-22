@@ -25,4 +25,7 @@ public class ExtraTestsActivity extends BaseOboeTesterActivity {
         launchTestActivity(TestPlugLatencyActivity.class);
     }
 
+    public void onLaunchDynamicWorkloadTest(View view) {
+        launchTestActivity(DynamicWorkloadActivity.class);
+    }
 }
