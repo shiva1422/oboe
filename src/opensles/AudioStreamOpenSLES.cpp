@@ -341,7 +341,7 @@ SLresult AudioStreamOpenSLES::registerBufferQueueCallback() {
                                                 &mSimpleBufferQueueInterface);
     if (SL_RESULT_SUCCESS != result) {
         LOGE("get buffer queue interface:%p result:%s",
-             mSimpleBufferQueueInterface,
+            (void *) mSimpleBufferQueueInterface,
              getSLErrStr(result));
     } else {
         // Register the BufferQueue callback
